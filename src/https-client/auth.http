@@ -1,0 +1,8 @@
+POST {{URL_LOCAL}}/api/auth/signup
+Content-Type: application/json
+
+{
+  "fullname": "ghccristia",
+  "password": "123456",
+  "email": "ghccristia@gmail.com"
+}
