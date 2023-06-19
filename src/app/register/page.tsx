@@ -20,9 +20,6 @@ function RegisterPage() {
                 fullname,
             })
 
-            //TODO Log
-            console.log(signUpResponse)
-
             const res = await signIn('credentials', {
                 email: signUpResponse.data.email,
                 password: formData.get('password'),
